@@ -8628,7 +8628,7 @@ h1, h2, h3, h4, h5,
         background: #3e64ff;
         color: #fff; }
 
-.ftco-about .img-about {
+/* .ftco-about .img-about {
   width: 100%;
   z-index: 0;
   position: relative; }
@@ -8636,7 +8636,19 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     position: relative;
-    z-index: 1; }
+    z-index: 1; } */
+
+/* 이미지 내용 수정 */
+.ftco-about .img-about {
+  position: relative;
+}
+
+.ftco-about .img-about .img {
+  width: 100%;
+  min-height: 480px;
+  background-size: cover;
+  background-position: center;
+}
 
 .ftco-about ul.about-info {
   display: inline-block;
