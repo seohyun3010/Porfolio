@@ -1175,6 +1175,7 @@ textarea.form-control {
 
 .ftco-section {
 	padding: 7em 0;
+	// padding: 12px 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
 		padding: 6em 0;
@@ -1197,9 +1198,13 @@ textarea.form-control {
 .ftco-footer {
 	font-size: 16px;
 	background: $black;
-	padding: 7em 0;
+	// padding: 7em 0;
+	padding: 12px 0;
 	z-index: 0;
 
+	p {
+        margin: 0;
+    }
 	.ftco-footer-logo {
 		text-transform: uppercase;
 		letter-spacing: .1em;
