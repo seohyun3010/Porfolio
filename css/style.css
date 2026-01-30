@@ -9683,13 +9683,16 @@ textarea.form-control {
 .skill-item {
   display: flex;
   align-items: center;
-  gap: 10px;              /* 아이콘-글자 간격 */
-  margin-bottom: 12px;
+  gap: 12px;
+  margin-bottom: 14px;
   font-size: 16px;
 }
 
-.skill-item img {
-  width: 28px;            /* 아이콘 크기 */
-  height: 28px;
-  object-fit: contain;
+.skill-icon {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
 }
