@@ -8641,11 +8641,24 @@ h1, h2, h3, h4, h5,
 /* 이미지 내용 수정 */
 .ftco-about .img-about {
   position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 480px;
+}
+
+/* 이미지 내용 추가 */ 
+.ftco-about .img-about .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2); /* 일단 연하게 */
+  z-index: 1;
 }
 
 .ftco-about .img-about .img {
-  flex: 1; /* 이 부분 추가함 */ 
-  width: 100%;
+  position: relative;   /* ← 이거 중요 */
+  z-index: 2;           /* overlay보다 큼 */
+  flex: 1;
+  /* width: 100%; */
   min-height: 480px;
   background-size: cover;
   background-position: center;
