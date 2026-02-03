@@ -8644,6 +8644,7 @@ h1, h2, h3, h4, h5,
 }
 
 .ftco-about .img-about .img {
+  flex: 1; /* 이 부분 추가함 */ 
   width: 100%;
   min-height: 480px;
   background-size: cover;
