@@ -8153,7 +8153,7 @@ a {
   color: #000000; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #86B6F6;
+    color: #000000;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
